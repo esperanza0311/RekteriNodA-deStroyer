@@ -5,7 +5,7 @@ public class DoubleLinkedPlaylist {
 
 
     public void addSong(String title){
-        song songs=new song(String title);
+        song songs=new song(title);
         if (head==null){
             head=tail=current=songs;
         }else{
