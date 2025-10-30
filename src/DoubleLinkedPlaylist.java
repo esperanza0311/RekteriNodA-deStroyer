@@ -27,7 +27,7 @@ public class DoubleLinkedPlaylist {
             current=current.previous;
             System.out.println("<<NS:Now Playing:>>,"+current);
         }else{
-            System.out.println("Start of playlist");
+            System.out.println("Start of playlista");
         }
     }
 }
